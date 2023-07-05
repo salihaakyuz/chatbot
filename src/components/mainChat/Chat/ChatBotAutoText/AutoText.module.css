@@ -1,0 +1,18 @@
+.autoTextCont {
+	margin-bottom: 30px;
+}
+.textCont {
+	margin: 5px 20px;
+	padding: 20px 20px;
+	border-radius: 6px;
+	border-top-left-radius: 0;
+	min-width: min-content;
+	background-color: rgb(181, 185, 199);
+	& p {
+		font-size: 1rem;
+	}
+}
+
+.metaCont {
+	margin: 10px 20px;
+}

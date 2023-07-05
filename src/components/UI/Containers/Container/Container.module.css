@@ -1,0 +1,11 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(41, 36, 36);
+  margin: 10px 20px;
+  padding: 0rem 1rem;
+  border-radius: 6px;
+  max-width: 420px;
+  max-height: max-content;
+}

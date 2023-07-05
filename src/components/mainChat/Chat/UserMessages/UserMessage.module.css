@@ -1,0 +1,17 @@
+.userMessageContainer {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	margin: 5px 20px;
+	float: right;
+	border-radius: 6px;
+	color: #fff;
+	border-top-right-radius: 0;
+	background-color: rgb(110, 114, 131);
+	& p {
+		padding: 20px 20px;
+		min-width: 90px;
+		font-size: 1rem;
+		word-break: break-all;
+	}
+}

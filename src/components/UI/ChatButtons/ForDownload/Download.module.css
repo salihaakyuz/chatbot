@@ -1,0 +1,26 @@
+.downloadContainer {
+	margin: 2px;
+	margin-right: 20px;
+	& p {
+		color: aliceblue;
+		font-size: 0.8rem;
+	}
+	& button {
+		border-radius: 0;
+		border-style: none;
+		padding: 2px 8px 2px 8px;
+
+		&:last-child {
+			border-top-right-radius: 3rem;
+			border-bottom-right-radius: 3rem;
+		}
+		&:nth-child(2) {
+			border-top-left-radius: 3rem;
+			border-bottom-left-radius: 3rem;
+		}
+		&:hover {
+			opacity: 0.9;
+			cursor: pointer;
+		}
+	}
+}
