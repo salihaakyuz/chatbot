@@ -3,7 +3,7 @@ import style from './AutoText.module.css';
 import Container from '../../../UI/Containers/Container/Container';
 import Download from '../../../UI/ChatButtons/ForDownload/Download';
 import Medium from '../../../UI/ChatButtons/InfoButtons/Medium';
-const AutoText = () => {
+const AutoText = ({ text }) => {
 	const [clickedData, setClickedData] = useState(null);
 
 	const clickHandler = (value) => {
@@ -13,9 +13,7 @@ const AutoText = () => {
 	return (
 		<div className={style.autoTextCont}>
 			<div className={style.textCont}>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
-					facere sint fuga reiciendis quis maxime inventore fugit qui?
+				<p>{text}
 				</p>
 			</div>
 			{/* <Container>
